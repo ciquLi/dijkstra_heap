@@ -1,4 +1,4 @@
-#链式前向星+dijkstra
+#链式前向星+dijkstra  python3.6
 def dijkstra(graph,head,src): 
     nodes = [key for key in head]    #取出所有节点
     distance = {}    #起点到所有顶点的距离，初始为无穷大，起点到起点为零

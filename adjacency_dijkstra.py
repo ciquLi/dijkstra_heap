@@ -1,3 +1,4 @@
+#链式前向星+dijkstra
 def dijkstra(graph,head,src): 
     nodes = [key for key in head]    #取出所有节点
     distance = {}    #起点到所有顶点的距离，初始为无穷大，起点到起点为零
@@ -63,10 +64,5 @@ if __name__ == '__main__':
    
     dist = dijkstra(edge_list,head,5)
     print(dist)
-    #distance, path = dijkstra(edge_list,head,5)
     
-    
-    #print distance, '\n', path
-    #distance, path = dijkstra(graph_dict, 's1')
-    #print(distance, '\n', path)
 

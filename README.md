@@ -2,3 +2,5 @@
 some algorithm write with python3.6
 
 dijkstra_heap.py: 用堆优化的dijkstra算法
+图文件存为JSON，直接读取后转换成dict,用UJSON包，200M的图文件大概需要4秒
+处理百万个节点、千万条边，所需时间大概为10秒

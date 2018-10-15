@@ -3,7 +3,7 @@
 """
 Created on Wed Oct  3 16:13:13 2018
 
-@author: lixionglve
+@author: ciqu
 """
 
 import time

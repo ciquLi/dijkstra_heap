@@ -1,4 +1,4 @@
-# network-algorithm
-some network algorithm write with python3.6
+# dijkstra with heap
+some algorithm write with python3.6
 
-adjacency_dijkstra.py: dijkstra + adjacency list  
+dijkstra_heap.py: 用堆优化的dijkstra算法

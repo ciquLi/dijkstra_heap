@@ -31,7 +31,7 @@ def dijkstra(G,start):     ###dijkstra算法
             new_dis = dis[v] + float(G[v][node])
             if new_dis < dis[node]:    #如果与v直接相连的node通过v到src的距离小于dis中对应的node的值,则用小的值替换
                 dis[node] = new_dis    #更新所有点的距离
-                dis_un[node][0] = new_dis    #g更新未访问的点到start的距离
+                dis_un[node][0] = new_dis    #更新未访问的点到start的距离
     t4 = time.time()
     print('Dijkstra算法所用时间:',t4-t3)
     return dis

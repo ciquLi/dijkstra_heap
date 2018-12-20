@@ -1,5 +1,6 @@
-# dijkstra heap
-some algorithm write with python3.6
+# dijkstra heap ，some algorithm write with python3.6
+
+dijkstra algorithm optimized with heap
 
 dijkstra_heap.py: 用堆优化的dijkstra算法  
 1.返回到每个点最短路径的权重和路径  
